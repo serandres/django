@@ -9,5 +9,5 @@ def de_donde_vengo(request):
 class PaisMiddleWare():
 	def process_request(self,request):
 		pais = de_donde_vengo(request)
-		if pais == 'Mexico':
+		if pais == 'Otrro':
 			return redirect('http://mejorando.la')
